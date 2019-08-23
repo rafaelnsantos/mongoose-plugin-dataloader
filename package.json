@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-plugin-dataloader",
+  "version": "1.0.0",
+  "description": "Add .load and .loadMany to models",
+  "main": "index.js",
+  "keywords": [
+    "graphql",
+    "dataloader",
+    "mongoose",
+    "plugin"
+  ],
+  "author": "Rafael Santos",
+  "license": "MIT",
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "infotoprojection": "^1.0.0",
+    "mongodb": "^3.3.0"
+  }
+}
