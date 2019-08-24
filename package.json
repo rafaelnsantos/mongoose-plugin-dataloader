@@ -1,6 +1,6 @@
 {
   "name": "mongoose-plugin-dataloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add .load and .loadMany to models",
   "main": "index.js",
   "keywords": [
