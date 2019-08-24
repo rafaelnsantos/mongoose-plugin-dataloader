@@ -15,5 +15,9 @@
     "dataloader": "^1.4.0",
     "infotoprojection": "^1.0.0",
     "mongodb": "^3.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelnsantos/mongoose-plugin-dataloader.git"
   }
 }

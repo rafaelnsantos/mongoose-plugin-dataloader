@@ -3,7 +3,7 @@ const ObjectId = require('mongodb').ObjectID
 const infoToProjection = require('infotoprojection')
 
 const Loader = (model, info, key = '_id', sort = { _id: -1 }) =>
-  new DataLoader(async ids =>
+  new DataLoader(ids =>
     model
       .find(
         { [key]: { $in: key == '_id' ? ids.map(id => ObjectId(id)) : ids } },

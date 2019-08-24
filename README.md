@@ -4,7 +4,7 @@ Adds `load` and `loadMany` to models.
 
 ## Getting Started
 
-> npm install mongoose-plugin-dataloader
+> npm install mongoose-plugin-dataloader --save
 
 ````js
 const { Schema, model } = require('mongoose')
